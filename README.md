@@ -3,7 +3,7 @@
 ## Introduction
 Exercise to practice Machine Learning and NLP focused on creating a Fake News classifier.
 
-This exercise was done in collaboration with [Desire Maestri](https://github.com/d-maestri/) and [Jan Dirk](https://github.com/JanDirkvandeBijl)
+This exercise was a collaboration between [Desire Maestri](https://github.com/d-maestri/), [Jan Dirk](https://github.com/JanDirkvandeBijl) and [Jonathan Sada](https://github.com/jonathansada).
 
 ## Project Overview
 The objective of this project is to build a classifier that is able to distinguish between the Fake (0) and Real(1) headline news.
@@ -15,9 +15,11 @@ Once a model is trained it must be used to predict the data in the file `dataset
 - `testing_data.csv`: Dataset to provide the answer of the exercise. It contains all labels set as 2. The purpose of the exercise is to replace them by 0 (fake) or 1 (real) according to the model predictions.
 
 ## Result and Conclusions 
-All the project is documented the `fake_news_classifier.ipynb` file.
+The project is splitted in different files:
+- `fake_news_classifier.ipynb`: Contains the step by step of the Machine Learning model creation and comparission (requires and environment with `requirements-notebook.txt` installed).
+- `fine_tuning.py` and `fine-tuning-bert.py`: Trains a fine-tuned model based on bert and takes predictions (requires and environment with `requirements-fine_tuning.txt` installed)
 
-A review of of the project at the presentation `FakeNewsClassifier.pdf` including the answer to the initial questions, implementationd details, obstacles and conclusions.
+The file `FakeNewsClassifier.pdf` contains the presentation, technologies used, model comparission, fine-tuned models details and results.
 
 The folder output contains csv with some of the results of the different secctions of the exercise and the final answer of the exercise:
 - `improve_pred_results.csv`: Contains the metrcis for training and test for all the combinations of classifiers and vectorizers tested.
