@@ -36,9 +36,6 @@ Pre-Trained models used:
 - [Fake-News-Bert-Detect](https://huggingface.co/jy46604790/Fake-News-Bert-Detect) by [Jiayi Fu](https://huggingface.co/jy46604790)
 - [distilbert_fake_news](https://huggingface.co/yasmine-11/distilbert_fake_news) by [yasmine-11](https://huggingface.co/yasmine-11)
 
-Dataset used:
-- [Fraudulent E-mails: Spam or Ham?](https://www.kaggle.com/competitions/dsub-fraudulentemails/overview) Dataset by [Santi Segui](https://www.kaggle.com/ssegui)
-
 ## License 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). \
 ![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png) 
