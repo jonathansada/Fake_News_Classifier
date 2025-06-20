@@ -3,7 +3,7 @@
 ## Introduction
 Exercise to practice Machine Learning and NLP focused on creating a Fake News classifier.
 
-This exercise was a collaboration between [Desire Maestri](https://github.com/d-maestri/), [Jan Dirk](https://github.com/JanDirkvandeBijl) and [Jonathan Sada](https://github.com/jonathansada).
+This exercise was a collaboration between [Desirée Maestri](https://github.com/d-maestri/), [Jan Dirk](https://github.com/JanDirkvandeBijl) and [Jonathan Sada](https://github.com/jonathansada).
 
 ## Project Overview
 The objective of this project is to build a classifier that is able to distinguish between the Fake (0) and Real(1) headline news.
@@ -30,6 +30,15 @@ The folder `output` contains csv with some of the results of the different secct
 
 The folder `result` contails the predictions done by the bert fine-tunned model
 
-## License
+## Credits
+Pre-Trained models used:
+- [bert-tiny-finetuned-fake-news-detection](https://huggingface.co/mrm8488/bert-tiny-finetuned-fake-news-detection) by [Manuel Romero](https://huggingface.co/mrm8488)
+- [Fake-News-Bert-Detect](https://huggingface.co/jy46604790/Fake-News-Bert-Detect) by [Jiayi Fu](https://huggingface.co/jy46604790)
+- [distilbert_fake_news](https://huggingface.co/yasmine-11/distilbert_fake_news) by [yasmine-11](https://huggingface.co/yasmine-11)
+
+Dataset used:
+- [Fraudulent E-mails: Spam or Ham?](https://www.kaggle.com/competitions/dsub-fraudulentemails/overview) Dataset by [Santi Segui](https://www.kaggle.com/ssegui)
+
+## License 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). \
 ![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png) 
